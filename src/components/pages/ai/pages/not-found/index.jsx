@@ -22,12 +22,12 @@ const NotFound = () => {
           >
             404
           </Typography>
-          <Typography variant="h5" color="textSecondary" sx={{ marginBottom: 2 }}>
+          <Typography variant="h5" color="white" sx={{ marginBottom: 2 }}>
             {`Oops! The page you're looking for doesn't exist.`}
           </Typography>
           <Typography
             variant="body1"
-            color="textSecondary"
+            color="white  "
             sx={{ marginBottom: 4 }}
           >
             {`It looks like the page you're trying to reach is not available. You might want to check the URL or
