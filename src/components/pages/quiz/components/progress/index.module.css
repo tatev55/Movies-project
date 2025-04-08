@@ -1,0 +1,32 @@
+progress {
+    -webkit-appearance: none;
+    width: 450px;
+    height: 15px;
+    grid-column: 1 / -1;
+    margin: 25px 10px;
+  }
+  
+  ::-webkit-progress-bar {
+    background-color: #43325B;
+    border-radius: 100px;
+  }
+  ::-webkit-progress-value {
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border-radius: 100px;
+  }
+
+
+
+  @media (max-width:650px) {
+    .progress{
+      width: 250px;
+    }
+
+  }
+
+  @media (max-width:460px) {
+    .progress{
+      width: 160px;
+    }
+
+  }

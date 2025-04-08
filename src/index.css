@@ -1,0 +1,11 @@
+body{
+    background-color: #070B1C;
+    transition: all 5s linear;
+}
+
+.chat{
+    display: flex;
+    width: 95vw;
+    height: 100vh;
+}
+

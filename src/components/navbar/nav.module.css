@@ -1,0 +1,20 @@
+.linkItem{
+    width: 150px;
+    height: 40px;
+    background-color: #E50914;
+    color: white;
+    text-decoration: none;
+    padding: .2rem;
+    margin: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+@media (max-width:440px){
+    .linkItem{
+        width: 140px;
+        
+    }
+}
